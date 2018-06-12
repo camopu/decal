@@ -1,0 +1,191 @@
+body {
+	font-family: Arial;
+	margin: 0;
+}
+
+.box-decal {
+	background: #ebeef3;
+	padding: 20px 0;
+}
+
+.box-decal h3 {
+    font-size: 15px;
+    line-height: 17px;
+	color: #4a555b;
+	font-weight: bold;
+	margin: 0 0 10px 20px;
+	display: inline-block;
+}
+
+.box-decal h3 img {
+	position: relative;
+	top: 2px;
+	left: 2px;
+	cursor: pointer;
+}
+
+.box-decal p {
+	font-size: 13px;
+    line-height: 17px;
+	color: #4a555b;
+	width: 180px;
+	margin: 20px 0 0 -175px;
+	display: inline-block;
+}
+
+.big_prev_wrapper {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.big_prev {
+	/*background: url('../images/big_prev.svg') no-repeat;*/
+	/*background-size: 100%;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;*/
+}
+
+/*.big_prev svg {
+	width: 1000px;
+	height: 1000px;
+}*/
+
+.big_prev_wrapper h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 19px;
+	position: absolute;
+	top: -9px;
+}
+
+.big_prev_wrapper h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: -10px;
+	left: 25px;
+}
+
+.select {
+	background: #fff;
+	min-height: 105px;
+	padding: 20px 0 5px 0;
+}
+
+.select ul {
+	margin: 0;
+	padding: 0;
+}
+
+.select li {
+	list-style: none;
+	display: inline-block;
+}
+
+.select li a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.select p {
+	color: #4e5b62;
+    font-size: 14px;
+    line-height: 16px;
+    width: 90px;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+.jscolor {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	border: 2px solid #808080;
+	font-size: 0;
+	position: relative;
+	top: -13px;
+	cursor: pointer;
+}
+
+button {
+    background: #3b495e url("../images/btn_dark_blue.png") repeat-x scroll 0 -1px;
+    border: 1px solid #3a485d;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #f7f8f8;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 37px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    left: 220px;
+}
+
+button:hover {
+    background: #3a485d url("../images/btn_dark_blue.png") repeat-x scroll 0 -39px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#select-key {
+	border: 1px solid #cad7de;
+    padding: 5px;
+    margin: -10px 0 10px 20px;
+    color: #4e5b62;
+    background: #fff url("../images/input_campaign.png") repeat-x scroll 0 0;
+}
+
+.select input[type="text"] {
+	width: 130px;
+	border: 1px solid #cad7de;
+    padding: 5px;
+    color: #4e5b62;	
+    background: #fff url("../images/input_campaign.png") repeat-x scroll 0 0;
+}
+
+.select button {
+	left: 20px;
+}
+
+.set {
+    background: #3b495e url("../images/btn_dark_blue.png") repeat-x scroll 0 -1px;
+    border: 1px solid #3a485d;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #f7f8f8;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 1px;
+}
+
+.set:hover {
+    background: #3a485d url("../images/btn_dark_blue.png") repeat-x scroll 0 -39px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mt40 {
+	margin-top: 40px!important;
+}
+
+#text {
+	
+}
