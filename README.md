@@ -1,1 +1,1 @@
-"# decal" 
+This is a simple application that allows you to modify the sticker by adding your own text and changing the color of the text and background. It is also possible to save this image by converting SVG to PNG.
